@@ -1,0 +1,6 @@
+# Pomodoro configuration
+timers:
+  workLoops: 2
+  timeWorkLoops: 2
+  timePause: 1
+
