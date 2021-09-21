@@ -16,3 +16,9 @@ To configure the pomodoro times ands loops you must set the values on
 ## Images
 ### Nofifications (Linux only)
 ![notify](https://i.imgur.com/EWRiMLk.png)
+
+## Run on development mode
+* Clone this repo `git clone https://github.com/pablotrianda/pomodorox`
+* Go to folder `cd pomodorox`
+* Install the dependencies `go mod tidy`
+* Run `go run *.go`
