@@ -14,5 +14,5 @@ To configure the pomodoro times ands loops you must set the values on
 `~/.config/pomodorox/config.yaml`
 
 ## Images
-### Nofifications (Only linux)
+### Nofifications (Linux only)
 ![notify](https://i.imgur.com/EWRiMLk.png)
