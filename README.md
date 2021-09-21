@@ -10,8 +10,13 @@ A pomodoro terminal app!
 2. Run `$pomodorox`
 
 ## Configuration
-To configure the pomodoro times ands loops you must set the values on
-`~/.config/pomodorox/config.yaml`
+To configure the [pomodoro](https://es.wikipedia.org/wiki/T%C3%A9cnica_Pomodoro) times and loops you must set the values on
+`~/.config/pomodorox/config.yaml` \n
+Disclaimer: This configurations is the way what **work for me!**, you can modify for your need. 😉
+This app take 3 params: 
+ * `workLoops` -> The number of block of work 
+ * `timeWorkLoops` -> Time for each work block
+ * `timePause` -> Time for each pause block
 
 ## Images
 ### Nofifications (Linux only)
@@ -22,3 +27,7 @@ To configure the pomodoro times ands loops you must set the values on
 * Go to folder `cd pomodorox`
 * Install the dependencies `go mod tidy`
 * Run `go run *.go`
+
+# Next steps
+- [ ] Show times and loops on tmux bar.  
+- [ ] More configurations modes.  
