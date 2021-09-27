@@ -18,6 +18,7 @@ type timeLoop struct {
 
 func (p *Pomodorox) run() {
 	for i := p.workLoops.loops; i != 0; i-- {
+		printInfo(p)
 		work(p)
 		pause(p)
 	}

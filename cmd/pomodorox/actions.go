@@ -28,11 +28,12 @@ func notifyToDesktop(msg string) {
 	cmd.Run()
 }
 
-func printInfo(pomo Pomodorox) {
+func printInfo(pomo *Pomodorox) {
+	fmt.Print("\033[H\033[2J") // Clean screen
 	fmt.Println("🍅 POMODOROX 🍅")
 	fmt.Printf("WORK TIME: %v\n", pomo.workTime)
 	fmt.Printf("PAUSE TIME: %v\n", pomo.shortRest)
-	fmt.Printf("LOOPS: %v\n", pomo.workLoops.loops)
+	fmt.Printf("WORKED LOOPS: %v/%v\n", pomo.workLoops.completedLoops, pomo.workLoops.loops)
 }
 
 func StartPomodorox(config *config.Config) {
@@ -56,6 +57,5 @@ func StartPomodorox(config *config.Config) {
 		shortRest:  time.Minute * pauseTime,
 	}
 
-	printInfo(pomo)
 	pomo.run()
 }
