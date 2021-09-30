@@ -33,7 +33,8 @@ func printInfo(pomo *Pomodorox) {
 	fmt.Println("🍅 POMODOROX 🍅")
 	fmt.Printf("WORK TIME: %v\n", pomo.workTime)
 	fmt.Printf("PAUSE TIME: %v\n", pomo.shortRest)
-	fmt.Printf("WORKED LOOPS: %v/%v\n", pomo.workLoops.completedLoops, pomo.workLoops.loops)
+	totalLoops := pomo.workLoops.completedLoops + pomo.workLoops.loops
+	fmt.Printf("WORKED LOOPS: %v/%v\n", pomo.workLoops.completedLoops, totalLoops)
 }
 
 func StartPomodorox(config *config.Config) {
