@@ -4,6 +4,8 @@ A pomodoro terminal app!
    <img src="https://art.pixilart.com/78565b935090b76.png" data-canonical-src="https://art.pixilart.com/78565b935090b76.png" width="400" height="350" />
 </p>
 
+![Console](https://i.imgur.com/OYp6umy.png)
+
 
 ## Install
 1. Run `install.sh`
