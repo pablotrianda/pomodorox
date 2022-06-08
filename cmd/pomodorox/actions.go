@@ -39,17 +39,17 @@ func printInfo(pomo *Pomodorox) {
 
 func StartPomodorox(config *config.Config) {
 	work := timeLoop{
-		loops:          config.Timers.WorkLoops,
+		loops:          config.QtyWorkLoops,
 		completedLoops: 0,
 	}
 
 	pause := timeLoop{
-		loops:          config.Timers.WorkLoops - 1,
+		loops:          config.QtyWorkLoops - 1,
 		completedLoops: 0,
 	}
 
-	workTime := time.Duration(config.Timers.TimeWorkLoops)
-	pauseTime := time.Duration(config.Timers.TimePause)
+	workTime := time.Duration(config.TimeWork)
+	pauseTime := time.Duration(config.TimePause)
 
 	pomo := Pomodorox{
 		workLoops:  work,
