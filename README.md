@@ -32,4 +32,5 @@ This app take 3 params:
 
 # Next steps
 - [ ] Show times and loops on tmux bar.  
+- [ ] Use params to set the loops.
 - [ ] More configurations modes.  
