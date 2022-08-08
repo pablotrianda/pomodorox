@@ -27,7 +27,10 @@ Use:
 * Install the dependencies `go mod tidy`
 * Run `go run *.go`
 
-# Next steps
+## Next steps
 - [ ] Show times and loops on tmux bar.  
 - [ ] Use params to set the loops.
 - [ ] Show a time countdown
+
+## Contact
+You can reach me on [Twitter @pablotrianda](https://www.twitter.com/pablotrianda)
