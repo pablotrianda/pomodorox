@@ -8,7 +8,7 @@ A pomodoro terminal app!
 
 
 ## Install
-1. Run `install.sh`
+1. Run `wget -O - https://raw.githubusercontent.com/pablotrianda/pomodorox/main/install.sh | bash`
 2. Run `pomodorox 50 10 4`
 
 ## Use
